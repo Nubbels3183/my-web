@@ -1,0 +1,85 @@
+<html lang="en">
+<style>
+html {
+background-image: url('imgfile/background.gif');
+background-position: center center;
+background-size: 100% 100%;
+}
+textbox_1 {
+background-image: url('imgfile/textbox.png');
+background-position: center center;
+background-size: 110% 100%;
+position: static;
+font-weight: normal;
+color: black;
+font-size: 50px;
+}
+layer2 {
+z-index: 2;
+}
+.up25 {
+margin-top: 25px;
+}
+.vertical-menu {
+position: static;
+background-color: #57B67D;
+width: 200px;
+z-index: 1;
+}
+.vertical-menu space {
+z-index: 1;
+position: static;
+background-color: #57B67D;
+width: 150px;
+height: 25px;
+display: block;
+}
+
+.vertical-menu a {
+z-index: 1;
+position: static;
+display: block;
+width: 150px;
+background-color: #FFFFFF;
+font-weight: bold;
+font-size: 25px;
+color: black;
+text-decoration: none;
+}
+.vertical-menu a:hover {
+z-index: 1;
+position: static;
+width: 150px;
+background-color: #B6B6B6;
+color: black;
+text-decoration: none;
+}
+.vertical-menu a.active {
+z-index: 1;
+position: static;
+background-color: #2A784A;
+width: 150px;
+color: black;
+text-decoration: none;
+}
+
+</style>
+
+<layer2>
+<center><body>
+<div class="up25"><textbox_1>Welcome to the Downloads page</textbox_1></div>
+</body></center>
+</layer2>
+
+<div class="vertical-menu">
+<center><space></space>
+<a href="/homepage.html">Homepage</a>
+<a href="/experamentalui.html">In Testing</a>
+<a href="/downloads.html" class="active">Downloads</a>
+<a href="https://repl.it/MaxW/23">Python</a>
+<space></space></center>
+</div>
+
+
+
+</html>
